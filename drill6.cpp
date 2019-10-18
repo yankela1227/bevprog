@@ -206,6 +206,7 @@ try
         val = expression();
     }
 	keep_window_open();
+	return 0;
 }
 catch (exception& e) {
     cerr << "error: " << e.what() << '\n';
